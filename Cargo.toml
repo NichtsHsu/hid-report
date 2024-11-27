@@ -1,0 +1,17 @@
+[package]
+name = "hid-report"
+version = "1.0.0"
+description = "handle USB HID report descriptors"
+edition = "2021"
+authors = ["Nichts Hsu <NichtsVonChaos@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/NichtsHsu/hid-report"
+documentation = "https://docs.rs/hid-report"
+keywords = ["usb", "hid"]
+categories = ["no-std", "parser-implementations"]
+
+[dependencies]
+
+[dev-dependencies]
+indoc = "2.0"
